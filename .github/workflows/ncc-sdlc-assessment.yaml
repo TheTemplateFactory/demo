@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Run NCC SDLC Assessment Scope
-        uses: TheTemplateFactory/github-action@main
+        uses: TheTemplateFactory/github-action@v1
         with:
           directory: '.'  # Optional: specify directories to analyze
           filter: '*.py,*.js,*.ts'  # Optional: filter specific file types
